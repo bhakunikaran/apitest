@@ -10,9 +10,11 @@ def add_to_data(pincode,address,city,latitude,longitude):
 	conn.close()
 
 def add_data(pincode,address,city,latitude,longitude):
-	around_diff = 0.005
+	around_diff = 0.00005
 	conn = psycopg2.connect("dbname='test1' user='postgres' password='KaranS@123' host='localhost' port='5432'")
 	cur = conn.cursor()
+	cur.execute("CREATE TABLE IF NOT EXISTS mapping(key varchar PRIMARY KEY NOT NULL, place_name varchar, admin_name1 varchar, latitude DOUBLE PRECISION, longitude DOUBLE PRECISION, accuracy varchar)")
+	conn.commit()
 	cur.execute("SELECT * FROM mapping")
 	data = cur.fetchall()
 	conn.commit()

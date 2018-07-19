@@ -16,24 +16,28 @@ Solution to problem question.
   - Interview 3/3.1/3.1.py -> 16th.
   - Interview 3/3.2/3.2.py -> 8th.
 #### Execute It:
-```bash
 --------Interview Stage 1 : adding data from csv-------- 
+```bash
 1. python3 Interview 1/add_data.py
+```
 --------Interview Stage 1 : post api-------- 
+```bash
 1. python3 Interview 1/first.py
 2. Open Interview 1/post_location.html
 ```
-```bash
 --------Interview Stage 2 : GET API-------- 
+```bash
 1. python3 Interview 2/2.py
 2. Open Interview 2/get_location.html
 ```
-```bash
 --------Interview Stage 3 : Loading geojson into table-------- 
+```bash
 1. python3 Interview 3/3.1/3.1.py
 2. Open Interview 3/3.1/json-load.html
 3. Add raw geojson there.
+```
 --------Interview Stage 3 : Tell place where given lat/long fals within-------- 
+```bash
 1. python3 Interview 3/3.2/3.2.py
 2. Open Interview 3/3.2/find-location.html
 ```

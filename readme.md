@@ -36,7 +36,7 @@ Solution to problem question.
 2. Open Interview 3/3.1/json-load.html
 3. Add raw geojson there.
 ```
---------Interview Stage 3 : Tell place where given lat/long fals within-------- 
+--------Interview Stage 3 : Tell place where given lat/long falls within-------- 
 ```bash
 1. python3 Interview 3/3.2/3.2.py
 2. Open Interview 3/3.2/find-location.html
